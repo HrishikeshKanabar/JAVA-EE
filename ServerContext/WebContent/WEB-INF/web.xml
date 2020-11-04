@@ -1,0 +1,23 @@
+<web-app>
+
+<servlet>
+   <servlet-name>My Servlet</servlet-name>
+   <servlet-class>DemoServlet</servlet-class>
+</servlet>
+
+<context-param>
+   <param-name>name</param-name>
+   <param-value>Hrishikesh Kanabar</param-value>
+</context-param>
+
+<context-param>
+   <param-name>email</param-name>
+   <param-value>hrishikesh.kanabar@gmail.com</param-value>
+</context-param>
+
+<servlet-mapping>
+   <servlet-name>My Servlet</servlet-name>
+   <url-pattern>/welcome</url-pattern>
+</servlet-mapping>
+
+</web-app>
