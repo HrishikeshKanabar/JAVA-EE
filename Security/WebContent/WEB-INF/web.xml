@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+<!-- This is our first servlet 1-->
+
+<servlet>
+<servlet-name>Serv1</servlet-name>
+<servlet-class>ServSec</servlet-class>
+
+</servlet>
+
+
+<servlet-mapping>
+<servlet-name>Serv1</servlet-name>
+<url-pattern>/login</url-pattern>
+</servlet-mapping>
+
+
+
+
+</web-app>
