@@ -1,0 +1,17 @@
+<web-app>
+<servlet>
+<servlet-name>CS</servlet-name>
+<!--THIS SHOULD BE NAME OF YOUR JAVA SERVLET CLASS  -->
+<servlet-class>calci.CalServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>CS</servlet-name>
+<url-pattern>/display</url-pattern>
+</servlet-mapping>
+
+<!--  <servlet-mapping>
+<servlet-name>CS</servlet-name>
+<url-pattern>/index</url-pattern>
+</servlet-mapping>-->
+</web-app>
