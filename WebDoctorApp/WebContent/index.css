@@ -1,0 +1,44 @@
+
+/*Center specific design: https://www.delftstack.com/howto/html/center-a-form-in-html/#:~:text=Use%20the%20CSS%20text%2Dalign%20Property%20to%20Center%20a%20Form%20in%20HTML,-We%20use%20the&text=We%20can%20set%20the%20value,type%20text%20and%20then%20submit%20.*/
+.signup-form{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top:100px;
+	width:25%;
+	text-align:left;
+	border:2px Solid blue ;
+	padding: 15px;
+	border-radius:5px;
+	
+	
+}
+
+.register-form{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top:100px;
+	width:40%;
+	text-align:left;
+	border:2px Solid blue ;
+	padding: 15px;
+	border-radius:5px;
+	
+}
+
+.form-title{
+	color:blue;
+	font-weight: bold;
+}
+
+.profile-card{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top:100px;
+	justify-content:center;
+	border:2px Solid blue ;
+	padding: 15px;
+	border-radius:5px;
+}
